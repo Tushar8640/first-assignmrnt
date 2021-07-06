@@ -18,14 +18,13 @@
 <body>
 
     <!-- Main menu section -->
-    <header class="header-menu">
+    <header class="header-menu " id="home">
         <div class="menu-logo"><h3> <span class="redColor">FOOD </span> Network</h3></div>
         <div class="main-menu">
-            <a href="#">Home</a>
-            <a href="#">Our Menu</a>
-            <a href="#">About</a>
-            <a href="#">Offer</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#recipie">Recipie</a>
+            <a href="#contact">Contact</a>
         </div>
     </header>
 
@@ -41,7 +40,7 @@
     </section>
 
     <!-- about section -->
-    <section class="aboutSection">
+    <section id="about" class="aboutSection">
         <div class="halfWidth"><img src="img/Person Image.png" alt=""></div>
 
         <div class="halfWidth">
@@ -53,7 +52,7 @@
     </section>
 
     <!-- Reepies sections -->
-    <section class="Recipies">
+    <section id="recipie" class="Recipies">
         <div class="myRecepies">
             <h1>My Recipies</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores odit facilis fuga quod pariatur itaque cumque dolores consequatur culpa, eum ut sint laborum repudiandae sapiente harum. Soluta, culpa molestias.</p>
@@ -77,5 +76,47 @@
                 </div>
         </div>
     </section>
+
+    <!-- counter section -->
+    <section class="counter">
+        <div class="counterItems">
+            <h2>700K</h2>
+            <p>Youtube Subscibe</p>
+        </div>
+        <div class="counterItems">
+            <h2>2.4m</h2>
+            <p>Instagram Followers</p>
+         </div>
+        <div class="counterItems">
+            <h2>100K</h2>
+            <p></p>Dribbble Short Likes</p>
+        </div>
+    </section>
+
+
+    <!-- contact form -->
+    <section class="contact" id="contact">
+        <div class="contact-area">
+            <div class="contactText">
+                <h2>Contact With Me</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, tempora!</p>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea name="" id="" cols="30" rows="10">Message</textarea>
+                    <button type="button" class="link-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <h1><span class="redColor">FOOD</span> NETWORK</h1>
+        <p>Eat healthy to live healthy.Live healthy to live happy</p>
+    </footer>
 </body>
 </html>
