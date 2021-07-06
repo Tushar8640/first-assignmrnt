@@ -31,9 +31,7 @@ body{
     font-weight: 600;
     margin: 35px;
 }
-section{
-    
-}
+
 
 /* ---------- */
 /* common css */
@@ -52,6 +50,7 @@ button{
     border-radius: 30px;
     font-weight: 600;
     margin-top: 20px;
+    box-shadow: 0 0 20px 0 #ffc4c4;
 }
 
 /* -------- */
@@ -94,7 +93,7 @@ button{
     padding-left: 80px;
 }
 .aboutSection h1{
-    margin-top: 200px;
+    margin-top: 120px;
     font-weight: 500;
 }
 .aboutSection p{
