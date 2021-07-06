@@ -173,6 +173,7 @@ button{
     margin-left: 10%;
     font-size: 15px;
     color: white;
+    cursor: pointer;
 }
 
 
