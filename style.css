@@ -17,13 +17,107 @@ body{
 .menu-logo{
     margin-left: 30px;
 }
-.logoColor{
+.redColor{
     color: rgb(228, 3, 47);
-    font-size: 30px;
 }
 .main-menu a{
     text-decoration: none;
     color: black;
     font-weight: 600;
     margin: 30px;
+}
+section{
+    
+}
+
+/* ---------- */
+/* common css */
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 13px 35px;
+    background-image: linear-gradient(to right, rgb(228, 3, 47), #ebab77);
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* -------- */
+/* hero section */
+.heroSection{
+    display: flex;
+    margin: 40px;
+}
+.heroSection h1{
+    margin-top: 100px;
+}
+.heroSection p{
+    margin-right: 100px;
+}
+.halfWidth{
+    width: 50%;
+}
+.heroSection img{
+    width: 90%;
+}
+
+/* ----------- */
+/* about section */
+.aboutSection{
+    display: flex;
+    background-image: url(img/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutSection img{
+    width: 40%;
+    margin-left: 100px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.aboutSection h1{
+    margin-top: 200px;
+    font-weight: 500;
+}
+.aboutSection p{
+    margin-right: 200px;
+}
+
+/* --------- */
+/* Reepies sections */
+.Recipies{
+    margin: 40px;
+}
+.myRecepies{
+    text-align: center;
+}
+.myRecepies h1{
+    font-weight: 600;
+}
+.myRecepies p{
+    margin: 0px 300px;
+}
+.recepieBlog{
+    display: flex;
+}
+.blogItems{
+    width: 30%;
+    margin: 25px;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.45)
+    
+}
+.blogItems img{
+    width: 100%;
+    border-radius: 15px;
 }
